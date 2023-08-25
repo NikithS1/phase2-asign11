@@ -1,0 +1,21 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SiteMaster.aspx.cs" Inherits="Assignment11.SiteMaster1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+</asp:Content>
+<!DOCTYPE html>
+<head runat="server">
+    <title>Your Application</title>
+</head>
+<body>
+    <div id="header">
+        <!-- Header content goes here -->
+    </div>
+    <div id="menu">
+        <!-- Navigation menu goes here -->
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <!-- Footer content goes here -->
+    </div>
+</body>
